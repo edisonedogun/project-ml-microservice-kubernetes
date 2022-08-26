@@ -1,4 +1,5 @@
-<include a CircleCI status badge, here>
+# Template:
+[![edisonedogun](https://circleci.com/<VCS>/edisonedogun/project-ml-microservice-kubernetes.svg?style=svg)](https://app.circleci.com/pipelines/github/edisonedogun/project-ml-microservice-kubernetes)
 
 ## Project Overview
 
