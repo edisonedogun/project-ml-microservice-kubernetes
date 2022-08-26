@@ -1,5 +1,5 @@
 # Template:
-[![edisonedogun](https://circleci.com/github/edisonedogun/project-ml-microservice-kubernetes.svg?style=svg)](https://app.circleci.com/pipelines/github/edisonedogun/project-ml-microservice-kubernetes/11/workflows/9e179c9a-0313-4052-b4c3-5fd0c52a7253)
+[![CircleCI](https://circleci.com/github/edisonedogun/project-ml-microservice-kubernetes.svg?style=svg)](https://app.circleci.com/pipelines/github/edisonedogun/project-ml-microservice-kubernetes/11/workflows/9e179c9a-0313-4052-b4c3-5fd0c52a7253)
 
 
 ## Project Overview
@@ -22,6 +22,16 @@ Your project goal is to operationalize this working, machine learning microservi
 You can find a detailed [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
 
 **The final implementation of the project will showcase your abilities to operationalize production microservices.**
+---
+
+## The Relevant Project Files
+
+Makefile - used to automate the process of setting a virtual environment for the project, install dependencies, run tests, and lint files.
+Dockerfile - The dockerfile is used for containerizing the application.
+.circleci - contains config file  used for setting up the ci process on circleci.
+run_docker.sh - This file is used for building the application into a docker image.
+upload_docker.sh - Used to push docker to an online docker repository.
+run_kubernetes.sh - This is responsible for creating a container in a kubernetes cluster using the docker image that has been built and pushed to dockerhub.
 
 ---
 
