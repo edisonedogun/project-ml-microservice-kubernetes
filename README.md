@@ -1,5 +1,4 @@
-# Template:
-[![edisonedogun](https://circleci.com/<VCS>/edisonedogun/project-ml-microservice-kubernetes.svg?style=svg)](https://app.circleci.com/pipelines/github/edisonedogun/project-ml-microservice-kubernetes)
+!https://circleci.com/github/edisonedogun/project-ml-microservice-kubernetes.svg?style=svg!:https://app.circleci.com/pipelines/github/edisonedogun/project-ml-microservice-kubernetes/10
 
 ## Project Overview
 
