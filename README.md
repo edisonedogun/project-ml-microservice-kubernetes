@@ -26,12 +26,14 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 ## The Relevant Project Files
 
-Makefile - used to automate the process of setting a virtual environment for the project, install dependencies, run tests, and lint files.
-Dockerfile - The dockerfile is used for containerizing the application.
-.circleci - contains config file  used for setting up the ci process on circleci.
-run_docker.sh - This file is used for building the application into a docker image.
-upload_docker.sh - Used to push docker to an online docker repository.
-run_kubernetes.sh - This is responsible for creating a container in a kubernetes cluster using the docker image that has been built and pushed to dockerhub.
+---
+
+* Makefile - used to automate the process of setting a virtual environment for the project, install dependencies, run tests, and lint files.
+* Dockerfile - The dockerfile is used for containerizing the application.
+* .circleci - contains config file  used for setting up the ci process on circleci.
+* run_docker.sh - This file is used for building the application into a docker image.
+* upload_docker.sh - Used to push docker to an online docker repository.
+* run_kubernetes.sh - This is responsible for creating a container in a kubernetes cluster using the docker image that has been built and pushed to dockerhub.
 
 ---
 
